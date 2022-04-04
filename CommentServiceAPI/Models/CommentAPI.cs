@@ -10,7 +10,7 @@
 
         public string Title { get; set; } = string.Empty;
 
-        public DateTime Created { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
 
         public string Comment { get; set; } = string.Empty;
     }
