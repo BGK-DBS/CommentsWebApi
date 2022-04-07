@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
+    "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj": {
+    "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj",
         "projectName": "CommentServiceAPI",
-        "projectPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "projectPath": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj",
         "packagesPath": "C:\\Users\\George Edgeworth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\obj\\",
+        "outputPath": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\George Edgeworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
