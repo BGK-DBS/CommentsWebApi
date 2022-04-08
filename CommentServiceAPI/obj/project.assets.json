@@ -9756,19 +9756,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\George Edgeworth\\.nuget\\packages\\": {}
+    "C:\\Users\\blana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
       "projectName": "CommentServiceAPI",
-      "projectPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
-      "packagesPath": "C:\\Users\\George Edgeworth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\obj\\",
+      "projectPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+      "packagesPath": "C:\\Users\\blana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\George Edgeworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\blana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -29,6 +29,22 @@ namespace CommentServiceAPI.Controllers
             return await _context.CommentItems.ToListAsync();
         }
 
+        // GET: api/CommentItems?ReportId=5
+        [HttpGet("{GetType}/{ReportId}")]
+        public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentforReportId(string GetType, int ReportId)
+        {
+            if (GetType == "REPORT")
+            {
+                var comments = from m in _context.CommentItems
+                               select m;
+
+                comments = comments.Where(c => c.ReportId == ReportId);
+                List<CommentItem> CommentsList = await comments.ToListAsync();
+                return CommentsList;
+            }
+            return NotFound();  
+        }
+
         // GET: api/CommentItems/5
         [HttpGet("{id}")]
         public async Task<ActionResult<CommentItem>> GetCommentItem(int id)
@@ -42,6 +58,7 @@ namespace CommentServiceAPI.Controllers
 
             return commentItem;
         }
+
 
         // PUT: api/CommentItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -100,6 +117,27 @@ namespace CommentServiceAPI.Controllers
 
             return NoContent();
         }
+
+        //// DELETE: api/CommentItems?ReportId=5
+        //[HttpDelete("{reportID}")]
+        //public async Task<IActionResult> DeleteCommentsbyReportID(string ReportID) 
+        //{
+        //    int reportid = ReportID
+        //    var comments = from m in _context.CommentItems
+        //                   select m;
+
+        //    comments = comments.Where(c => c.ReportId == reportID);
+        //    List<CommentItem> CommentsList = await comments.ToListAsync();
+        //    if (CommentsList == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    _context.CommentItems.Remove(CommentsList);
+        //    await _context.SaveChangesAsync();
+
+        //    return NoContent();
+        //}
 
         private bool CommentItemExists(int id)
         {
