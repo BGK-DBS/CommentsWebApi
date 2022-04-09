@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CommentApi.Models;
+using CommentServiceAPI.Models;
 using CommentServiceAPI;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CommentServiceAPI.Controllers
 {
@@ -29,21 +31,49 @@ namespace CommentServiceAPI.Controllers
             return await _context.CommentItems.ToListAsync();
         }
 
-        // GET: api/CommentItems?ReportId=5
-        [HttpGet("{GetType}/{ReportId}")]
-        public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentforReportId(string GetType, int ReportId)
-        {
-            if (GetType == "REPORT")
-            {
-                var comments = from m in _context.CommentItems
-                               select m;
+        // Purpose - return a list of Comments:
+        //   all users or the logged in user reports only
+        //   All comments for a report
+        //   
 
-                comments = comments.Where(c => c.ReportId == ReportId);
-                List<CommentItem> CommentsList = await comments.ToListAsync();
-                return CommentsList;
+        // GET: api/CommentItems/FilterComments?CreationEmail?={CreationEmail}&ReportID?={reportID}
+        [HttpGet("FilterComments")]
+        public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentItems([FromQuery]string CreationEmail, [FromQuery]string reportID)
+        {
+
+            // Use LINQ to get list of genres.
+            IQueryable<string> ReportIDQuery = from m in _context.CommentItems
+                                               orderby m.CreatedBy
+                                               select m.CreatedBy;
+
+            var comments = from m in _context.CommentItems
+                          select m;
+
+            if (!string.IsNullOrEmpty(CreationEmail))
+            {
+                comments = comments.Where(s => s.CreatedBy == CreationEmail);
             }
-            return NotFound();  
+
+ 
+            if (!string.IsNullOrEmpty(reportID))
+            {
+
+                if (Int32.TryParse(reportID, out int reportid))
+                {
+                    comments = comments.Where(x => x.ReportId == reportid);
+                }
+            }
+
+            var CommentReportIdVM = new CommentReportIdViewModel
+            {
+                CommentsReportId = new SelectList(await ReportIDQuery.Distinct().ToListAsync()),
+                Comments = await comments.ToListAsync()
+            };
+
+            return CommentReportIdVM.Comments;
+
         }
+
 
         // GET: api/CommentItems/5
         [HttpGet("{id}")]

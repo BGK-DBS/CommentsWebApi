@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public Guid CreatedBy { get; set; }
+        public string CreatedBy { get; set; }  // changed to string due to issues with GUID
 
         public string CommentText { get; set; } = string.Empty;
 
