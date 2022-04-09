@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
+    "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {
+    "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
         "projectName": "CommentServiceAPI",
-        "projectPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
-        "packagesPath": "C:\\Users\\blana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\obj\\",
+        "projectPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "packagesPath": "C:\\Users\\George Edgeworth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\George Edgeworth\\Source\\Repos\\CommentsWebApiGit\\CommentServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\blana\\AppData\\Roaming\\NuGet\\NuGet.Config",
