@@ -823,3 +823,10 @@ C:\Users\George Edgeworth\Documents\HDip\Adv Web Tech\CA\Git\CommentServiceAPI\o
 C:\Users\George Edgeworth\Documents\HDip\Adv Web Tech\CA\Git\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.pdb
 C:\Users\George Edgeworth\Documents\HDip\Adv Web Tech\CA\Git\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.genruntimeconfig.cache
 C:\Users\George Edgeworth\Documents\HDip\Adv Web Tech\CA\Git\CommentServiceAPI\obj\Debug\net6.0\ref\CommentServiceAPI.dll
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.csproj.AssemblyReference.cache
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.AssemblyInfoInputs.cache
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.AssemblyInfo.cs
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.csproj.CoreCompileInputs.cache
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\keith\Source\Repos\BGK-DBS\CommentsWebApi\CommentServiceAPI\obj\Debug\net6.0\CommentServiceAPI.MvcApplicationPartsAssemblyInfo.cache

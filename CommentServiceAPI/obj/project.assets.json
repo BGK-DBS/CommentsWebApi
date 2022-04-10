@@ -9756,19 +9756,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\George Edgeworth\\.nuget\\packages\\": {}
+    "C:\\Users\\keith\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj",
+      "projectUniqueName": "C:\\Users\\keith\\Source\\Repos\\BGK-DBS\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
       "projectName": "CommentServiceAPI",
-      "projectPath": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\CommentServiceAPI.csproj",
-      "packagesPath": "C:\\Users\\George Edgeworth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\George Edgeworth\\Documents\\HDip\\Adv Web Tech\\CA\\Git\\CommentServiceAPI\\obj\\",
+      "projectPath": "C:\\Users\\keith\\Source\\Repos\\BGK-DBS\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+      "packagesPath": "C:\\Users\\keith\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\keith\\Source\\Repos\\BGK-DBS\\CommentsWebApi\\CommentServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\George Edgeworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\keith\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
