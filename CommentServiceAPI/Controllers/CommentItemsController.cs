@@ -36,9 +36,9 @@ namespace CommentServiceAPI.Controllers
         //   All comments for a report
         //   
 
-        // GET: api/CommentItems/FilterComments?CreationEmail?={CreationEmail}&ReportID?={reportID}
+        // GET: api/CommentItems/FilterComments?CreatedBySearch?={CreatedBySearch}&ReportIDSearch?={reportIDSearch}
         [HttpGet("FilterComments")]
-        public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentItems([FromQuery]string CreationEmail, [FromQuery]string reportID)
+        public async Task<ActionResult<IEnumerable<CommentItem>>> GetCommentItems([FromQuery]string createdBySearch, [FromQuery]int reportIDSearch)
         {
 
             // Use LINQ to get list of genres.
@@ -49,19 +49,14 @@ namespace CommentServiceAPI.Controllers
             var comments = from m in _context.CommentItems
                           select m;
 
-            if (!string.IsNullOrEmpty(CreationEmail))
-            {
-                comments = comments.Where(s => s.CreatedBy == CreationEmail);
+            if (!string.IsNullOrEmpty(createdBySearch))
+            { 
+                comments = comments.Where(s => s.CreatedBy == createdBySearch);
             }
-
- 
-            if (!string.IsNullOrEmpty(reportID))
+             
+            if (reportIDSearch != 0)
             {
-
-                if (Int32.TryParse(reportID, out int reportid))
-                {
-                    comments = comments.Where(x => x.ReportId == reportid);
-                }
+                comments = comments.Where(x => x.ReportId == reportIDSearch);
             }
 
             var CommentReportIdVM = new CommentReportIdViewModel

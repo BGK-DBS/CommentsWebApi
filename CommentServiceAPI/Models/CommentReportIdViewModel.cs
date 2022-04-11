@@ -13,6 +13,6 @@ namespace CommentServiceAPI.Models
         public List<CommentItem> Comments { get; set; }
 
         public string? CreatedBy { get; set; }
-        public string? ReportID { get; set; }
+        public int? ReportID { get; set; }  //BC - amended type to int from string
     }
 }
