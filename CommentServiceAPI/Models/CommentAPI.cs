@@ -11,5 +11,6 @@
         public int ReportId { get; set; }
 
         public DateTime DateCreated { get; set; }
+
     }
 }
