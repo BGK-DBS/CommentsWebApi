@@ -1,3 +1,3 @@
 # CommentsWebApi
 
-[Comments WEB API](./CommentServiceAPI/README.md)
+[Comments WEB API README](./CommentServiceAPI/README.md)
