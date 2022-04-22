@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommentServiceAPI.Migrations
 {
     [DbContext(typeof(CommentContext))]
-    [Migration("20220418221228_addGuid")]
-    partial class addGuid
+    [Migration("20220422182321_initialcreateComments")]
+    partial class initialcreateComments
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,9 +40,6 @@ namespace CommentServiceAPI.Migrations
                     b.Property<string>("CreatedBy")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("CreatorGuid")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
