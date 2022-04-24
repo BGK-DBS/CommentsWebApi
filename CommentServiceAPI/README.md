@@ -36,16 +36,16 @@ After clicking on your account it should then redirect to the forked repo. You s
 
 ![After Forked](./docs/images/after_forked.png)
 
-An alternative is to Open the solution in visual studio by selecting the Green Code button and then clicking on the "open with Visual Studio"
+To open the solution in Visual Studio, select the Green Code button and then click on the "open with Visual Studio"
 ![open in visual studio](./docs/images/Open_in_visual_studio.png)
 
 A box will appear asking can Github open in visual studio- continue by selecting this:
 
-![permission to open in visual studio](./docs/images/open_in_visual_studio2.png)
+![permission to open in visual studio](./docs/images/Open_in_visual_studio2.png)
 
-In visual studio,  select clone at the bottom right hand corner
+In visual studio, select clone at the bottom right hand corner of the screen
 
-In solutions explorer on the right run CommentServiceAPI.sln
+In solutions explorer, select CommentServiceAPI.sln
 
 ## Migrations 
 
@@ -72,7 +72,7 @@ Update-Database
 
 Using Visual Studio: 
 * Click the IIS express run button in visual studio
-* Swagger UI can be accessed on  https://localhost:7202/swagger/index.html
+* When the solution is running, the Swagger UI can be accessed on  https://localhost:7202/swagger/index.html
 
 
 ## Future Enhancements
