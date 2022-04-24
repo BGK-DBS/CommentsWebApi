@@ -45,6 +45,7 @@ A box will appear asking can Github open in visual studio- continue by selecting
 
 In visual studio,  select clone at the bottom right hand corner
 
+In solutions explorer on the right run CommentServiceAPI.sln
 
 ## Migrations 
 
