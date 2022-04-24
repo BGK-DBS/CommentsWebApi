@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mz4f4wPkSdJ23lAEsuQx0h4XBzW5YIZXP3YvZJuCnq4SntxKUxeNcI9hVZLttJ5F2Y+lwrQuQL/k0dSuy1M9HQ==",
+  "dgSpecHash": "+Ctduk3mThsW5FPxiWiHOQJApd2fn/2i2Fn4hSigmMzGVCBcpFc6CTxNu0XefGPLSH+LBo7SFEyq0sQfpxyypQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+  "projectFilePath": "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\blana\\.nuget\\packages\\humanizer.core\\2.13.14\\humanizer.core.2.13.14.nupkg.sha512",
     "C:\\Users\\blana\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

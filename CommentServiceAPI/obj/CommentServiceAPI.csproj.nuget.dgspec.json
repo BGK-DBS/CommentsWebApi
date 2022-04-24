@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
+    "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {
+    "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
         "projectName": "CommentServiceAPI",
-        "projectPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
+        "projectPath": "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\CommentServiceAPI.csproj",
         "packagesPath": "C:\\Users\\blana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blana\\projectsdbs\\CommentsWebApi\\CommentServiceAPI\\obj\\",
+        "outputPath": "C:\\Users\\blana\\final\\CommentsWebApi\\CommentServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\blana\\AppData\\Roaming\\NuGet\\NuGet.Config",

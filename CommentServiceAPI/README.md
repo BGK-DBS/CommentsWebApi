@@ -55,7 +55,7 @@ In solutions explorer, select CommentServiceAPI.sln
 * First migration run the following
 
 ```bash
-Add-Migration InitialMigration
+Add-Migration InitialCommentsMigration
 ```
 
 * Verify migrations scripts are run successfully and Migrations folder is created
